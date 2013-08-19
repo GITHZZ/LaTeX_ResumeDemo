@@ -1,0 +1,102 @@
+\documentclass[11pt] {article}
+
+%导入包
+\usepackage[margin=2cm,a4paper]{geometry}
+\usepackage{amsmath,siunitx}
+\usepackage[version=3]{mhchem}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{natbib}
+\usepackage{txfonts}
+\usepackage{array} 
+\usepackage{fontspec}
+\usepackage{multirow}
+\usepackage{textcomp,booktabs}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{colortbl}
+
+%设置中文字体
+\XeTeXlinebreaklocale “zh”
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+
+%设置颜色
+\definecolor{mygray}{gray}{.9}
+
+%SimSun仿宋
+\setmainfont{SimSun}
+\begin{document}
+%\title{个人简历}
+%\date{}
+%\maketitle
+%表格
+\begin{table}[!htbp]
+	%居中
+	\centering
+	\begin{tabular}{|c|l|c|l|c|l|c|l|c|}
+	\hline
+	\hline
+		%第0行 标题
+		\multicolumn{5}{|c|}{\multirow{2}{*}{个人简历}}\\\multicolumn{5}{|c|}{}\\	
+		\hline
+		%第一行到第五行为基本资料
+		%第一行
+		\multirow{2}{*}{姓名} & \multirow{2}{*}{XXX} &\multirow{2}{*}{性别}&\multirow{2}{*}{男} &\multirow{10}{*}{\includegraphics{MyPic.jpg} }\\
+		&&&&\\
+		\cline{1-4}
+		%第二行
+		\multirow{2}{*}{出生年月} & \multirow{2}{*}{XX年XX月XX日} &\multirow{2}{*}{民族}&\multirow{2}{*}{汉} &\\
+		&&&&\\
+		\cline{1-4}
+		%第三行
+		\multirow{2}{*}{籍贯} & \multirow{2}{*}{地球中国} &\multirow{2}{*}{政治面貌}&\multirow{2}{*}{群众} &\\
+		&&&&\\
+		\cline{1-4}
+		%第四行
+		\multirow{2}{*}{在读院校} & \multirow{2}{*}{广州大学华软软件学院} &\multirow{2}{*}{专业}&\multirow{2}{*}{某计算机的超科学技术} &\\
+		&&&&\\
+		\cline{1-4}
+		%第五行
+		\multirow{2}{*}{联系电话} & \multirow{2}{*}{123} &\multirow{2}{*}{个人邮箱}&\multirow{2}{*}{ad@foxmail.com} &\\
+		&&&&\\
+		\hline
+		%第六和第七行是求职意向
+		\multicolumn{5}{|l|}{\multirow{2}{*}{求职意向:}}\\\multicolumn{5}{|c|}{}\\	
+		\hline
+		\multicolumn{5}{|l|}{\multirow{2}{*}{移动游戏开发 cocos2dx(lua)}}\\\multicolumn{5}{|c|}{}\\	
+		\hline
+		%第七和第八行是技术分享平台网站
+		\multicolumn{5}{|l|}{\multirow{2}{*}{个人技术分享相关网站:}}\\\multicolumn{5}{|c|}{}\\	
+		\hline
+		\multicolumn{5}{|l|}{\multirow{2}{*}{技术相关文章博客地址(新浪博客):http://blog.sina.com.cn/hezunzu}}\\\multicolumn{5}{|c|}{}\\	
+		\multicolumn{5}{|l|}{\multirow{2}{*}{GitHub共享代码托管地址:https://github.com/GITHZZ}}\\\multicolumn{5}{|c|}{}\\
+		\hline
+		%第九行第十行 专业技能
+		\multicolumn{5}{|l|}{\multirow{2}{*}{专业技能:}}\\\multicolumn{5}{|c|}{}\\	
+		\hline
+		\multicolumn{5}{|l|}{\multirow{2}{*}{掌握:	javascript,	objective-c,	C++,		cocos2d,	cocos2dx,	SenchaTouch}}\\\multicolumn{5}{|c|}{}\\
+		\multicolumn{5}{|l|}{\multirow{2}{*}{熟悉:	Unity3D,	Jquery}}\\\multicolumn{5}{|c|}{}\\
+		\multicolumn{5}{|l|}{\multirow{2}{*}{使用:	LaTeX,	lua,	MySql,	PHP,		JSGameSoup}}\\\multicolumn{5}{|c|}{}\\
+		\hline
+		%第十一，十二行 校园经历
+		\multicolumn{5}{|l|}{\multirow{2}{*}{校园经历:}}\\\multicolumn{5}{|c|}{}\\	
+		\hline
+		\multicolumn{5}{|l|}{\multirow{2}{*}{}}\\\multicolumn{5}{|c|}{}\\	
+		\multicolumn{5}{|l|}{\multirow{2}{*}{}}\\\multicolumn{5}{|c|}{}\\	
+		\multicolumn{5}{|l|}{\multirow{2}{*}{}}\\\multicolumn{5}{|c|}{}\\	
+		\multicolumn{5}{|l|}{\multirow{2}{*}{}}\\\multicolumn{5}{|c|}{}\\	
+		\hline
+		%第十三行 十四行 获得荣誉
+		\multicolumn{5}{|l|}{\multirow{2}{*}{获得荣誉:}}\\\multicolumn{5}{|c|}{}\\	
+		\hline
+		\multicolumn{5}{|l|}{\multirow{2}{*}{}}\\\multicolumn{5}{|c|}{}\\	
+		\multicolumn{5}{|l|}{\multirow{2}{*}{}}\\\multicolumn{5}{|c|}{}\\	
+		\multicolumn{5}{|l|}{\multirow{2}{*}{}}\\\multicolumn{5}{|c|}{}\\	
+		\multicolumn{5}{|l|}{\multirow{2}{*}{}}\\\multicolumn{5}{|c|}{}\\	
+		\multicolumn{5}{|l|}{\multirow{2}{*}{}}\\\multicolumn{5}{|c|}{}\\	
+	\hline
+	\hline
+	\end{tabular}
+\end{table}
+
+
+ \end{document}
